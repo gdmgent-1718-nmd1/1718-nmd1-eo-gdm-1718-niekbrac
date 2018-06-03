@@ -11,6 +11,7 @@ body {
     padding: 25px;
 }
 
+
 img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
@@ -19,28 +20,44 @@ img {
 
 
 
-p.title {
+h2.title {
     text-transform: uppercase;
-    font-family: 'Montserrat';
-    font-weight: normal;
-    font-size: 57px;
+    font-family: 'Fedora Shadow';
+    font-weight:normal;
+    font-size: 50px;
     color: #6ACED7;
 }
 
-p.subtitle {
+h2.header {
     text-transform: lowercase;
     font-family: 'Montserrat';
     font-weight: bold;
-    font-size: 40px;
+    font-size: 24px;
     color: #6ACED7;
 }
 
-p.text {
+h2.page {
+    text-transform: lowercase;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 30px;
+    color: #6ACED7;
+}
+
+h2.footer {
+    text-transform: lowercase;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 30px;
+    color: #6ACED7;
+}
+h2.boxes {
     text-transform: lowercase;
     font-family: 'Montserrat';
     font-weight: normal;
     font-size: 20px;
-    color: #6ACED7;
+    color: #939393;
+}
 }
 
  a{
@@ -64,14 +81,6 @@ a:active {
     color: #4197B9;
 }
 
-
-
-
-
-
-
-
-
 input {
     border: 2px solid #0537B6;
     color: #000000;
@@ -91,41 +100,9 @@ input.text {
 input.text:focus {
     color:  #1D3C8A;
 }
-.kleur1{
-    background: #50C3DF;
-    font-family: 'Montserrat';
-    width: 200px;
-    height: 200px;
-    text-align: center;
-}
-.kleur2{
-    background: #6F8DD9;
-    font-family: 'Montserrat';
-    width: 200px;
-    height: 200px;
-    text-align: center;
-}
-.kleur3{
-    background: #a2d256;
-    font-family: 'Montserrat';
-    width: 200px;
-    height: 200px;
-    text-align: center;
-}
-.kleur4{
-    background: #e3e954;
-    font-family: 'Montserrat';
-    width: 200px;
-    height: 200px;
-    text-align: center;
-}
-.kleur5{
-    background: #dfd250;
-    font-family: 'Montserrat';
-    width: 200px;
-    height: 200px;
-    text-align: center;
+
 }
 img:hover{
     background-color: #6F8DD9;
 }
+
